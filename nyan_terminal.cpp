@@ -25,6 +25,8 @@ void nyanf(string text, string color, string background) {
         result += "\x1b[36m";
     } else if(color == "white") {
         result += "\x1b[37m";
+    } else if(color == "default") {
+        result += "";
     }
 
     // Background Colors
@@ -45,6 +47,8 @@ void nyanf(string text, string color, string background) {
         result += "\x1b[46m";
     } else if(background == "white") {
         result += "\x1b[47m";
+    } else if(background == "default") {
+        result += "";
     }
 
     cout << result + text << endl;
