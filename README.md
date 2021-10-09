@@ -47,5 +47,5 @@ magenta
 cyan
 white
 ```
-
+<hr>
 Created by Bl4ckdestinyXX
